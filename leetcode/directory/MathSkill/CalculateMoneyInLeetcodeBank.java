@@ -41,7 +41,7 @@
 // Related Topics 数学 
 // 👍 48 👎 0
 
-package editor.cn.MathSkill;
+package directory.MathSkill;
 public class CalculateMoneyInLeetcodeBank{
     public static void main(String[] args){
         Solution solution = new CalculateMoneyInLeetcodeBank().new Solution();

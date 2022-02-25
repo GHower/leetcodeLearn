@@ -45,7 +45,7 @@
 // Related Topics 设计 队列 数组 链表 
 // 👍 230 👎 0
 
-package editor.cn.DataStruct;
+package directory.DataStruct;
 public class DesignCircularQueue{
     public static void main(String[] args){
         MyCircularQueue solution = new DesignCircularQueue().new MyCircularQueue(10);

@@ -55,7 +55,7 @@
 // Related Topics 树 深度优先搜索 二叉树 
 // 👍 230 👎 0
 
-package editor.cn.Search;
+package directory.Search;
 
 public class BinaryTreeTilt{
     public static void main(String[] args){

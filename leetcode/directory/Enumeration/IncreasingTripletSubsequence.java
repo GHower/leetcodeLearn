@@ -45,7 +45,7 @@
 // Related Topics 贪心 数组 
 // 👍 467 👎 0
 
-package editor.cn.Enumeration;
+package directory.Enumeration;
 
 public class IncreasingTripletSubsequence {
     public static void main(String[] args) {

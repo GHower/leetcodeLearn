@@ -41,7 +41,7 @@
 // Related Topics 数组 排序 
 // 👍 115 👎 0
 
-package editor.cn.Enumeration;
+package directory.Enumeration;
 public class LargestNumberAtLeastTwiceOfOthers{
     public static void main(String[] args){
         Solution solution = new LargestNumberAtLeastTwiceOfOthers().new Solution();

@@ -57,7 +57,7 @@
 // Related Topics 位运算 数学 
 // 👍 69 👎 0
 
-package editor.cn.MathSkill;
+package directory.MathSkill;
 public class Xoh6Oh{
     public static void main(String[] args){
 //        Solution solution = new Xoh6Oh().new Solution();

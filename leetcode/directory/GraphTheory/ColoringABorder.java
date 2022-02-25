@@ -46,7 +46,7 @@
 // Related Topics 深度优先搜索 广度优先搜索 数组 矩阵 
 // 👍 91 👎 0
 
-package editor.cn.GraphTheory;
+package directory.GraphTheory;
 
 import java.util.ArrayList;
 import java.util.List;

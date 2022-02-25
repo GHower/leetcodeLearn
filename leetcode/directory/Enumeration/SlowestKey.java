@@ -57,7 +57,7 @@
 // Related Topics 数组 字符串 
 // 👍 60 👎 0
 
-package editor.cn.Enumeration;
+package directory.Enumeration;
 public class SlowestKey{
     public static void main(String[] args){
         Solution solution = new SlowestKey().new Solution();

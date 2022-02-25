@@ -29,9 +29,8 @@
 // Related Topics 数组 数学 字符串 排序 
 // 👍 145 👎 0
 
-package editor.cn.SortSkill;
+package directory.SortSkill;
 
-import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
