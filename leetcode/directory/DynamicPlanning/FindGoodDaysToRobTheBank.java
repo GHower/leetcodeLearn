@@ -70,7 +70,7 @@
 // Related Topics 数组 动态规划 前缀和 
 // 👍 59 👎 0
 
-package editor.cn;
+package directory.DynamicPlanning;
 
 import java.util.ArrayList;
 import java.util.List;
