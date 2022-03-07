@@ -53,7 +53,7 @@
 // Related Topics 数组 字符串 二分查找 前缀和 
 // 👍 23 👎 0
 
-package editor.cn;
+package directory.MathSkill;
 
 public class PlatesBetweenCandles {
     public static void main(String[] args) {
