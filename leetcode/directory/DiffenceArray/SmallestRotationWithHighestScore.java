@@ -47,7 +47,7 @@
 // Related Topics 数组 前缀和 
 // 👍 155 👎 0
 
-package editor.cn;
+package directory.DiffenceArray;
 
 import java.util.Arrays;
 
