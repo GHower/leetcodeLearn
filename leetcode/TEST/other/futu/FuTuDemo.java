@@ -1,4 +1,4 @@
-package TEST.other.aftership;
+package TEST.other.futu;
 
 /**
  * @author ghower
