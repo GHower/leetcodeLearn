@@ -76,23 +76,23 @@ public class NAryTreePreorderTraversal {
 
     class Solution {
         List<Integer> res = new ArrayList<>();
-
-        public List<Integer> preorder(Node root) {
-            pre(root);
-            return res;
-        }
-
-        public void pre(Node root) {
-            if (root == null) {
-                return;
-            }
-            res.add(root.val);
-            if (root.children.size() > 0) {
-                for (int i = 0; i < root.children.size(); ++i) {
-                    preorder(root.children.get(i));
-                }
-            }
-        }
+//
+//        public List<Integer> preorder(Node root) {
+//            pre(root);
+//            return res;
+//        }
+//
+//        public void pre(Node root) {
+//            if (root == null) {
+//                return;
+//            }
+//            res.add(root.val);
+//            if (root.children.size() > 0) {
+//                for (int i = 0; i < root.children.size(); ++i) {
+//                    preorder(root.children.get(i));
+//                }
+//            }
+//        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
