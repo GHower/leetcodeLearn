@@ -15,7 +15,7 @@
 // Related Topics 递归 链表 
 // 👍 220 👎 0
 
-package editor.cn;
+package offer;
 
 public class HeBingLiangGePaiXuDeLianBiaoLcof {
     public static void main(String[] args) {
