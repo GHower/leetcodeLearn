@@ -19,7 +19,7 @@
 // Related Topics 数组 数学 
 // 👍 201 👎 0
 
-package editor.cn;
+package offer;
 public class DaYinCong1daoZuiDaDeNweiShuLcof{
     public static void main(String[] args){
 //        Solution solution = new DaYinCong1daoZuiDaDeNweiShuLcof().new Solution();
