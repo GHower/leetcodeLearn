@@ -27,7 +27,7 @@
 // Related Topics 数组 哈希表 分治 计数 排序 
 // 👍 257 👎 0
 
-package editor.cn;
+package offer;
 
 public class ShuZuZhongChuXianCiShuChaoGuoYiBanDeShuZiLcof {
     public static void main(String[] args) {
