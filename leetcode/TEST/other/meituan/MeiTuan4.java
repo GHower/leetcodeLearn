@@ -3,6 +3,10 @@ package TEST.other.meituan;
 import java.util.Scanner;
 
 /**
+ * n = 3
+ * m = 6
+ * booms = [2,1,2,2,2,1]
+ *          1 3 3 3 3 3    drop = 1
  * @author ghower
  * @date 2022/3/12 16:09
  */
@@ -20,6 +24,7 @@ public class MeiTuan4 {
             int a = in.nextInt();
             booms[i++] = a;
         }
+
         int curRoom = 1;
         drop(n, m, booms, curRoom, 2, 0);
 
