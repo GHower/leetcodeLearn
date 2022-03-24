@@ -5,5 +5,5 @@
 /target/*
 /leetcode/TEST/
 /TEST/*
-/leetcode/TEST/*
+/leetcode/TEST/**
 
