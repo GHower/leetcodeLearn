@@ -48,18 +48,30 @@
 // Related Topics 贪心 数组 双指针 
 // 👍 2941 👎 0
 
-package editor.cn;
-public class ContainerWithMostWater{
-    public static void main(String[] args){
+package directory.DoublePoint;
+
+public class ContainerWithMostWater {
+    public static void main(String[] args) {
         Solution solution = new ContainerWithMostWater().new Solution();
-        
+
     }
-//leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public int maxArea(int[] height) {
-        return 0;
+
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public int maxArea(int[] height) {
+            int res = 0;
+            int p = 0, q = height.length - 1;
+            while (p != q) {
+                res = Math.max(res, (q-p) * Math.min(height[p], height[q]));
+                if (height[p] > height[q]) {
+                    q--;
+                } else {
+                    p++;
+                }
+            }
+            return res;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
