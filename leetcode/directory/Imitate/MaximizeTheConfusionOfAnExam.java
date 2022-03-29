@@ -56,7 +56,7 @@
 // Related Topics 字符串 二分查找 前缀和 滑动窗口 
 // 👍 69 👎 0
 
-package editor.cn;
+package directory.Imitate;
 
 public class MaximizeTheConfusionOfAnExam {
     public static void main(String[] args) {
@@ -66,42 +66,42 @@ public class MaximizeTheConfusionOfAnExam {
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
-        public int maxConsecutiveAnswers(String answerKey, int k) {
-            int res = 0,t = 0,f = 0;
-            int l = 0;
-            char[] chars = answerKey.toCharArray();
-            for (int r = 0; r < chars.length; r++) {
-                if(chars[r] == 'T'){
-                    t++;
-                }else{
-                    f++;
-                }
-
-                if(t>f){
-                    // T数量占优
-                    if(f > k){
-                        if(chars[l] == 'T'){
-                            t--;
-                        }else{
-                            f--;
-                        }
-                        l++;
-                    }
-                }else{
-                    // F数量占优
-                    if(t > k){
-                        if(chars[l] == 'T'){
-                            t--;
-                        }else{
-                            f--;
-                        }
-                        l++;
-                    }
-                }
-                res = Math.max(res,r-l+1);
-            }
-            return res;
-        }
+        // 模拟
+//        public int maxConsecutiveAnswers(String answerKey, int k) {
+//            int res = 0,t = 0,f = 0;
+//            int l = 0;
+//            char[] chars = answerKey.toCharArray();
+//            for (int r = 0; r < chars.length; r++) {
+//                if(chars[r] == 'T'){
+//                    t++;
+//                }else{
+//                    f++;
+//                }
+//                if(t>f){
+//                    // T数量占优
+//                    if(f > k){
+//                        if(chars[l] == 'T'){
+//                            t--;
+//                        }else{
+//                            f--;
+//                        }
+//                        l++;
+//                    }
+//                }else{
+//                    // F数量占优
+//                    if(t > k){
+//                        if(chars[l] == 'T'){
+//                            t--;
+//                        }else{
+//                            f--;
+//                        }
+//                        l++;
+//                    }
+//                }
+//                res = Math.max(res,r-l+1);
+//            }
+//            return res;
+//        }
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
