@@ -339,6 +339,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/leetcode/editor/cn/FindSmallestLetterGreaterThanTarget.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/leetcode/editor/cn/FindSmallestLetterGreaterThanTarget.java" />
+              <option name="questionId" value="745" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/leetcode/editor/cn/FindTheClosestPalindrome.java">
           <value>
             <LeetcodeEditor>
