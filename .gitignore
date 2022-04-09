@@ -3,7 +3,7 @@
 /out/*
 /target
 /target/*
-/leetcode/TEST/
+/TEST/
 /TEST/*
-/leetcode/TEST/**
+/TEST/**
 
