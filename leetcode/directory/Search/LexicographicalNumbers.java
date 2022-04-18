@@ -30,7 +30,7 @@
 // Related Topics 深度优先搜索 字典树 
 // 👍 275 👎 0
 
-package editor.cn;
+package directory.Search;
 
 import java.util.ArrayList;
 import java.util.List;
