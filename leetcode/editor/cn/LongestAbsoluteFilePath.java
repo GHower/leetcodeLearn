@@ -101,7 +101,6 @@ import java.util.Deque;
 public class LongestAbsoluteFilePath {
     public static void main(String[] args) {
 //        Solution solution = new LongestAbsoluteFilePath().new Solution();
-
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
